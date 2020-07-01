@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dc519bd0e833dcbcc55dde6f1750e06d",
+    "content-hash": "f0f6440356048b739c0bf98cf443e595",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -744,11 +744,23 @@
         },
         {
             "name": "hyperf/amqp",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/amqp.git",
+                "reference": "d08d41ccd43b70502b4d18d350f3ddeb269593c4"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/amqp",
-                "reference": "4a09f2fc856e1ef1d1e39a018610dbce2314e678"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/amqp/zipball/d08d41ccd43b70502b4d18d350f3ddeb269593c4",
+                "reference": "d08d41ccd43b70502b4d18d350f3ddeb269593c4",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "doctrine/instantiator": "^1.2.0",
@@ -789,43 +801,38 @@
                     "Hyperf\\Amqp\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Amqp\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "A amqplib for hyperf.",
             "homepage": "https://hyperf.io",
             "keywords": [
-                "amqp",
+                "AMQP",
                 "hyperf",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/async-queue",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/async-queue.git",
+                "reference": "677bb0bd0c513ac8c1b6c2b379eb79fd68183738"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/async-queue",
-                "reference": "165f678c9e3aaf7e3969f023c89f75e4eba631ea"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/async-queue/zipball/677bb0bd0c513ac8c1b6c2b379eb79fd68183738",
+                "reference": "677bb0bd0c513ac8c1b6c2b379eb79fd68183738",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/command": "~2.0.0",
@@ -861,19 +868,7 @@
                     "Hyperf\\AsyncQueue\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\AsyncQueue\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -884,20 +879,27 @@
                 "hyperf",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/cache",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/cache.git",
+                "reference": "099e20b4a009dd8564b6b045e0ad924e235d95e7"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/cache",
-                "reference": "1672a4efbd2b58fe6f4b4a0164887dd032c855e7"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/cache/zipball/099e20b4a009dd8564b6b045e0ad924e235d95e7",
+                "reference": "099e20b4a009dd8564b6b045e0ad924e235d95e7",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -932,19 +934,7 @@
                     "Hyperf\\Cache\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Cache\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -955,20 +945,27 @@
                 "hyperf",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/command",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/command.git",
+                "reference": "7dabe2921633067c01f34e1789bec4c87a77b45c"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/command",
-                "reference": "17d4d46535521031b4c33eabc26e6ec0ac71af93"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/command/zipball/7dabe2921633067c01f34e1789bec4c87a77b45c",
+                "reference": "7dabe2921633067c01f34e1789bec4c87a77b45c",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/utils": "~2.0.0",
@@ -996,19 +993,7 @@
                     "Hyperf\\Command\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Command\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/phpunit -c phpunit.xml"
-                ],
-                "co_test": [
-                    "php tests/co_phpunit.php -c phpunit.xml"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1017,15 +1002,28 @@
                 "command",
                 "php",
                 "swoole"
-            ]
+            ],
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/config",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/config.git",
+                "reference": "514fa12fc10fb3950d075dc56bd3d0e74d281da0"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/config",
-                "reference": "3d7786049a1a725c545778f8ecb1c611a85d07ed"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/config/zipball/514fa12fc10fb3950d075dc56bd3d0e74d281da0",
+                "reference": "514fa12fc10fb3950d075dc56bd3d0e74d281da0",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1067,19 +1065,7 @@
                     "Hyperf\\Config\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Config\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1092,20 +1078,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/constants",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/constants.git",
+                "reference": "76917040c88a80ced41f96feb87de316bd0c6f82"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/constants",
-                "reference": "42b3bafa7e08482beb1b551719320437a6464ab1"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/constants/zipball/76917040c88a80ced41f96feb87de316bd0c6f82",
+                "reference": "76917040c88a80ced41f96feb87de316bd0c6f82",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/di": "~2.0.0",
@@ -1135,19 +1128,7 @@
                     "Hyperf\\Constants\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Constants\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1158,20 +1139,27 @@
                 "hyperf",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/contract",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/contract.git",
+                "reference": "8f2eb269422b87337c9648786555346d9e3f45b3"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/contract",
-                "reference": "52f2c5a74b0021aa18c3981385588352043735a9"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/contract/zipball/8f2eb269422b87337c9648786555346d9e3f45b3",
+                "reference": "8f2eb269422b87337c9648786555346d9e3f45b3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=7.2"
@@ -1194,17 +1182,7 @@
                     "Hyperf\\Contract\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": []
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1215,20 +1193,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/database",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/database.git",
+                "reference": "2ddbbd186487df79f9d4d00784e451308f083306"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/database",
-                "reference": "e5a9253105c419d5225475fd114175e98c20ea4f"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/database/zipball/2ddbbd186487df79f9d4d00784e451308f083306",
+                "reference": "2ddbbd186487df79f9d4d00784e451308f083306",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/paginator": "~2.0.0",
@@ -1259,19 +1244,7 @@
                     "Hyperf\\Database\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Database\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1282,20 +1255,27 @@
                 "hyperf",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/db-connection",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/db-connection.git",
+                "reference": "bba32397d7f35a602f910446b03b89756cf938ca"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/db-connection",
-                "reference": "d1d6727600a18235a5381ac9a59e09bfe9498d25"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/db-connection/zipball/bba32397d7f35a602f910446b03b89756cf938ca",
+                "reference": "bba32397d7f35a602f910446b03b89756cf938ca",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/database": "~2.0.0",
@@ -1326,44 +1306,39 @@
                     "Hyperf\\DbConnection\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\DbConnection\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "A hyperf db connection handler for hyperf/database.",
             "homepage": "https://hyperf.io",
             "keywords": [
-                "connection",
+                "Connection",
                 "database",
                 "hyperf",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/di",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/di.git",
+                "reference": "2c29ecb02bdfcee01457f567973135e9d19313cc"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/di",
-                "reference": "6f213c3bcfae8938e36d49d31b157d362ce45513"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/di/zipball/2c29ecb02bdfcee01457f567973135e9d19313cc",
+                "reference": "2c29ecb02bdfcee01457f567973135e9d19313cc",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "doctrine/annotations": "^1.6",
@@ -1403,19 +1378,7 @@
                     "Hyperf\\Di\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Di\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1428,20 +1391,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/dispatcher",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/dispatcher.git",
+                "reference": "0d4bd07d1b362ad60d6d664b4bdcd43318b1dc11"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/dispatcher",
-                "reference": "c29d33b1dd3e4af395c0119cfc0d1a34750992f3"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/dispatcher/zipball/0d4bd07d1b362ad60d6d664b4bdcd43318b1dc11",
+                "reference": "0d4bd07d1b362ad60d6d664b4bdcd43318b1dc11",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1470,19 +1440,7 @@
                     "Hyperf\\Dispatcher\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Dispatcher\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1496,20 +1454,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/elasticsearch",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/elasticsearch.git",
+                "reference": "37b8e4b8ee557e2d3ca551a30dc1a3c194cd436d"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/elasticsearch",
-                "reference": "678330334882201c85127136e90ab97128750f50"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/elasticsearch/zipball/37b8e4b8ee557e2d3ca551a30dc1a3c194cd436d",
+                "reference": "37b8e4b8ee557e2d3ca551a30dc1a3c194cd436d",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "elasticsearch/elasticsearch": "^7.0",
@@ -1531,19 +1496,7 @@
                     "Hyperf\\Elasticsearch\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Elasticsearch\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/phpunit -c phpunit.xml"
-                ],
-                "co_test": [
-                    "php tests/co_phpunit.php -c phpunit.xml"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1552,15 +1505,28 @@
                 "elasticsearch",
                 "php",
                 "swoole"
-            ]
+            ],
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/event",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/event.git",
+                "reference": "a6f8cd420884a0845e9376d2f79d2140ae735e54"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/event",
-                "reference": "a79e469b5e5192e472dba6b1eb1988560fe7d5a0"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/event/zipball/a6f8cd420884a0845e9376d2f79d2140ae735e54",
+                "reference": "a6f8cd420884a0845e9376d2f79d2140ae735e54",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1591,19 +1557,7 @@
                     "Hyperf\\Event\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Event\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1615,20 +1569,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/exception-handler",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/exception-handler.git",
+                "reference": "a9f647df4a3ec7cd52adb742f7f5b1aca11e5a9e"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/exception-handler",
-                "reference": "1753cc63d132f75aaa0ce8b30d097c8e220d5e50"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/exception-handler/zipball/a9f647df4a3ec7cd52adb742f7f5b1aca11e5a9e",
+                "reference": "a9f647df4a3ec7cd52adb742f7f5b1aca11e5a9e",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1658,19 +1619,7 @@
                     "Hyperf\\ExceptionHandler\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\ExceptionHandler\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/phpunit -c phpunit.xml"
-                ],
-                "co_test": [
-                    "php tests/co_phpunit.php -c phpunit.xml"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1679,15 +1628,28 @@
                 "exception-handler",
                 "php",
                 "swoole"
-            ]
+            ],
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/framework",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/framework.git",
+                "reference": "2e1b1e8be70cc7d0f96110de85120a5b0a8e3cb3"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/framework",
-                "reference": "70a0fd40ba9f1bd98e5680c6bc49b28968522f6c"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/framework/zipball/2e1b1e8be70cc7d0f96110de85120a5b0a8e3cb3",
+                "reference": "2e1b1e8be70cc7d0f96110de85120a5b0a8e3cb3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "ext-swoole": ">=4.4",
@@ -1726,46 +1688,41 @@
                     "Hyperf\\Framework\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Framework\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "A coroutine framework that focuses on hyperspeed and flexible, specifically use for build microservices and middlewares.",
             "homepage": "https://hyperf.io",
             "keywords": [
+                "Microservice",
                 "framework",
                 "hyperf",
-                "microservice",
                 "middleware",
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/guzzle",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/guzzle.git",
+                "reference": "117697218f490ec7983a44a5982990ca02000de7"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/guzzle",
-                "reference": "325a1ee947df0c53157357cca08c702a59cd5621"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/guzzle/zipball/117697218f490ec7983a44a5982990ca02000de7",
+                "reference": "117697218f490ec7983a44a5982990ca02000de7",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3",
@@ -1794,34 +1751,38 @@
                     "Hyperf\\Guzzle\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Guzzle\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
             "description": "Swoole coroutine handler for guzzle",
             "keywords": [
-                "guzzle",
+                "Guzzle",
                 "handler",
                 "php",
                 "swoole"
-            ]
+            ],
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/http-message",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/http-message.git",
+                "reference": "fae392db328dc27b7b046897852dd7dc0f3ebeb9"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/http-message",
-                "reference": "c069bdf6db27edcfc7efad1515421bb064cc298c"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/http-message/zipball/fae392db328dc27b7b046897852dd7dc0f3ebeb9",
+                "reference": "fae392db328dc27b7b046897852dd7dc0f3ebeb9",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/utils": "~2.0.0",
@@ -1848,19 +1809,7 @@
                     "Hyperf\\HttpMessage\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\HttpMessage\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1870,15 +1819,28 @@
                 "hyperf",
                 "php",
                 "swoole"
-            ]
+            ],
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/http-server",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/http-server.git",
+                "reference": "2452fee0152ef2de3c4548ca1124ea39f2d041bc"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/http-server",
-                "reference": "a0ff769a7ded1b79382247c3e0dbc16e81675371"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/http-server/zipball/2452fee0152ef2de3c4548ca1124ea39f2d041bc",
+                "reference": "2452fee0152ef2de3c4548ca1124ea39f2d041bc",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1916,19 +1878,7 @@
                     "Hyperf\\HttpServer\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\HttpServer\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1941,20 +1891,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/logger",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/logger.git",
+                "reference": "85025932855bed0fd4fc4d4df573d43f249195f7"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/logger",
-                "reference": "019821ad5919f43b457fe452e56095c89fef1e62"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/logger/zipball/85025932855bed0fd4fc4d4df573d43f249195f7",
+                "reference": "85025932855bed0fd4fc4d4df573d43f249195f7",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1984,19 +1941,7 @@
                     "Hyperf\\Logger\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Logger\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2007,20 +1952,27 @@
                 "logger",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/memory",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/memory.git",
+                "reference": "503f69a2a90ce23da70cbdae5908671f9690ed3d"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/memory",
-                "reference": "e7b7e984d0f7791a44373d45e21509e5f31413a8"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/memory/zipball/503f69a2a90ce23da70cbdae5908671f9690ed3d",
+                "reference": "503f69a2a90ce23da70cbdae5908671f9690ed3d",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "php": ">=7.2"
@@ -2045,17 +1997,7 @@
                     "Hyperf\\Memory\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": []
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2067,20 +2009,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/model-cache",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/model-cache.git",
+                "reference": "910d7620a5d505d3adcca429a015b735dd3805d1"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/model-cache",
-                "reference": "4177e191a0a684d848b7fd187697da69f64efdd1"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/model-cache/zipball/910d7620a5d505d3adcca429a015b735dd3805d1",
+                "reference": "910d7620a5d505d3adcca429a015b735dd3805d1",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2114,19 +2063,7 @@
                     "Hyperf\\ModelCache\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\ModelCache\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2137,20 +2074,27 @@
                 "model-cache",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/model-listener",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/model-listener.git",
+                "reference": "7a1713e6dc93e9cb0483610974ac97a2d5620b0a"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/model-listener",
-                "reference": "d8d35d504e7b9c7077539c89a0eeb4e03fec1715"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/model-listener/zipball/7a1713e6dc93e9cb0483610974ac97a2d5620b0a",
+                "reference": "7a1713e6dc93e9cb0483610974ac97a2d5620b0a",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2182,19 +2126,7 @@
                     "Hyperf\\ModelListener\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\ModelListener\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2206,20 +2138,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/paginator",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/paginator.git",
+                "reference": "a0d2fcda7d690d63b7d172ac2611c28c7645a9b3"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/paginator",
-                "reference": "9eeeef5facbefdee7de99dba44a4ea2a88f57197"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/paginator/zipball/a0d2fcda7d690d63b7d172ac2611c28c7645a9b3",
+                "reference": "a0d2fcda7d690d63b7d172ac2611c28c7645a9b3",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2254,19 +2193,7 @@
                     "Hyperf\\Paginator\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Paginator\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2277,20 +2204,27 @@
                 "paginator",
                 "php"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/pool",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/pool.git",
+                "reference": "c5791544c8a7ee3c2c77879fb8538af0fe96672c"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/pool",
-                "reference": "6a9cbdad6beb79054c81eae8f53e87efabbb69be"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/pool/zipball/c5791544c8a7ee3c2c77879fb8538af0fe96672c",
+                "reference": "c5791544c8a7ee3c2c77879fb8538af0fe96672c",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2318,19 +2252,7 @@
                     "Hyperf\\Pool\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Pool\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2342,20 +2264,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/process",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/process.git",
+                "reference": "3b9d9c38a1a273be8074357ca16fb2a967130780"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/process",
-                "reference": "2b6c873f120e473f0fadba779d87515e147a672a"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/process/zipball/3b9d9c38a1a273be8074357ca16fb2a967130780",
+                "reference": "3b9d9c38a1a273be8074357ca16fb2a967130780",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2390,19 +2319,7 @@
                     "Hyperf\\Process\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Process\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2413,20 +2330,27 @@
                 "php",
                 "process"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/redis",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/redis.git",
+                "reference": "5266b0301ce65b1e5d8a637b0dce0d26c2d02ff7"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/redis",
-                "reference": "c6888eed795d34ed92959e2324dc68abcc4ad2ff"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/redis/zipball/5266b0301ce65b1e5d8a637b0dce0d26c2d02ff7",
+                "reference": "5266b0301ce65b1e5d8a637b0dce0d26c2d02ff7",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "ext-redis": "*",
@@ -2460,19 +2384,7 @@
                     "Hyperf\\Redis\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Redis\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2484,20 +2396,27 @@
                 "pool",
                 "redis"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/server",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/server.git",
+                "reference": "57a0806d40141b1117729052e19c0787b53a7b46"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/server",
-                "reference": "8601c09a6e97b4c5738a4a78c9c5589973d686e1"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/server/zipball/57a0806d40141b1117729052e19c0787b53a7b46",
+                "reference": "57a0806d40141b1117729052e19c0787b53a7b46",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2532,19 +2451,7 @@
                     "Hyperf\\Server\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Server\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2556,20 +2463,27 @@
                 "server",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/utils",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/utils.git",
+                "reference": "89d0b18565c566cddc6331755c20963d7a913dac"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/utils",
-                "reference": "856f02d202122bed089d44d621e751287245bf5a"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/utils/zipball/89d0b18565c566cddc6331755c20963d7a913dac",
+                "reference": "89d0b18565c566cddc6331755c20963d7a913dac",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "doctrine/inflector": "^1.3",
@@ -2609,19 +2523,7 @@
                     "Hyperf\\Utils\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Utils\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -2633,12 +2535,7 @@
                 "swoole",
                 "utils"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "jetbrains/phpstorm-stubs",
@@ -6074,11 +5971,23 @@
         },
         {
             "name": "hyperf/devtool",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/devtool.git",
+                "reference": "1ff7a4572079abb54b64e7d35dafbacc98f0d17c"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/devtool",
-                "reference": "da80832953c29f3b59c2a316162129f6ad868e33"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/devtool/zipball/1ff7a4572079abb54b64e7d35dafbacc98f0d17c",
+                "reference": "1ff7a4572079abb54b64e7d35dafbacc98f0d17c",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/command": "~2.0.0",
@@ -6107,19 +6016,7 @@
                     "Hyperf\\Devtool\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Devtool\\": "tests/"
-                }
-            },
-            "scripts": {
-                "cs-fix": [
-                    "php-cs-fixer fix $1"
-                ],
-                "test": [
-                    "phpunit --colors=always"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6131,20 +6028,27 @@
                 "php",
                 "swoole"
             ],
-            "support": {
-                "docs": "https://hyperf.wiki",
-                "issues": "https://github.com/hyperf/hyperf/issues",
-                "pull-request": "https://github.com/hyperf/hyperf/pulls",
-                "source": "https://github.com/hyperf/hyperf"
-            }
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "hyperf/testing",
-            "version": "dev-master",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hyperf/testing.git",
+                "reference": "1898f675fc050fa71c0e474f40ab5163ebc30d8a"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/minxinqing/workspace/code/php/hyperf/src/testing",
-                "reference": "193946eac53b4b1cb2a1b2198f6bdaec53fa356a"
+                "type": "zip",
+                "url": "https://api.github.com/repos/hyperf/testing/zipball/1898f675fc050fa71c0e474f40ab5163ebc30d8a",
+                "reference": "1898f675fc050fa71c0e474f40ab5163ebc30d8a",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -6174,19 +6078,7 @@
                     "Hyperf\\Testing\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "HyperfTest\\Testing\\": "tests/"
-                }
-            },
-            "scripts": {
-                "test": [
-                    "./vendor/bin/phpunit -c phpunit.xml"
-                ],
-                "co_test": [
-                    "php tests/co_phpunit.php -c phpunit.xml"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -6195,7 +6087,8 @@
                 "php",
                 "swoole",
                 "testing"
-            ]
+            ],
+            "time": "2020-06-19T13:11:07+00:00"
         },
         {
             "name": "mockery/mockery",
@@ -6270,16 +6163,16 @@
         },
         {
             "name": "myclabs/deep-copy",
-            "version": "1.10.0",
+            "version": "1.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/myclabs/DeepCopy.git",
-                "reference": "5796d127b0c4ff505b77455148ea9d5269d99758"
+                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/5796d127b0c4ff505b77455148ea9d5269d99758",
-                "reference": "5796d127b0c4ff505b77455148ea9d5269d99758",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
+                "reference": "969b211f9a51aa1f6c01d1d2aef56d3bd91598e5",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -6320,7 +6213,7 @@
                 "object",
                 "object graph"
             ],
-            "time": "2020-06-28T07:02:41+00:00"
+            "time": "2020-06-29T13:22:24+00:00"
         },
         {
             "name": "paragonie/random_compat",

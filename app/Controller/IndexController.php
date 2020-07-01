@@ -23,4 +23,8 @@ class IndexController extends AbstractController
             'message' => "Hello {$user}.",
         ];
     }
+
+    public function testp() {
+        return $this->request->all();
+    }
 }

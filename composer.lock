@@ -537,16 +537,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.5",
+            "version": "6.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e"
+                "reference": "724562fa861e21a4071c652c8a159934e4f05592"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
-                "reference": "9d4290de1cfd701f38099ef7e183b64b4b7b0c5e",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/724562fa861e21a4071c652c8a159934e4f05592",
+                "reference": "724562fa861e21a4071c652c8a159934e4f05592",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -577,12 +577,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -590,9 +590,39 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Jeremy Lindblom",
+                    "email": "jeremeamia@gmail.com",
+                    "homepage": "https://github.com/jeremeamia"
+                },
+                {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
             "description": "Guzzle is a PHP HTTP client library",
@@ -606,20 +636,38 @@
                 "rest",
                 "web service"
             ],
-            "time": "2020-06-16T21:01:06+00:00"
+            "support": {
+                "issues": "https://github.com/guzzle/guzzle/issues",
+                "source": "https://github.com/guzzle/guzzle/tree/6.5.7"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/guzzle",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-06-09T21:36:50+00:00"
         },
         {
             "name": "guzzlehttp/promises",
-            "version": "v1.3.1",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/promises.git",
-                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
-                "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
+                "reference": "fe752aedc9fd8fcca3fe7ad05d419d32998a06da",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -629,24 +677,24 @@
                 ]
             },
             "require": {
-                "php": ">=5.5.0"
+                "php": ">=5.5"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.0"
+                "symfony/phpunit-bridge": "^4.4 || ^5.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.5-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -654,29 +702,62 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
             "description": "Guzzle promises library",
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20T10:07:11+00:00"
+            "support": {
+                "issues": "https://github.com/guzzle/promises/issues",
+                "source": "https://github.com/guzzle/promises/tree/1.5.1"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/promises",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-10-22T20:56:57+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.6.1",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/337e3ad8e5716c15f9657bd214d16cc5e69df268",
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -695,24 +776,24 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
             },
             "suggest": {
-                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -720,12 +801,33 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
                 },
                 {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
                     "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
                     "homepage": "https://github.com/Tobion"
                 }
             ],
@@ -740,7 +842,25 @@
                 "uri",
                 "url"
             ],
-            "time": "2019-07-01T23:21:34+00:00"
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.8.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-03-20T21:51:18+00:00"
         },
         {
             "name": "hyperf/amqp",
@@ -748,7 +868,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/amqp",
-                "reference": "4a09f2fc856e1ef1d1e39a018610dbce2314e678"
+                "reference": "263147a7b20972904394f208cdebe50a7b5deed9"
             },
             "require": {
                 "doctrine/instantiator": "^1.2.0",
@@ -817,6 +937,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -825,7 +948,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/async-queue",
-                "reference": "165f678c9e3aaf7e3969f023c89f75e4eba631ea"
+                "reference": "66a62ae0be68f0363ed4a1bb27fd67547f3c2907"
             },
             "require": {
                 "hyperf/command": "~2.0.0",
@@ -889,6 +1012,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -897,7 +1023,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/cache",
-                "reference": "1672a4efbd2b58fe6f4b4a0164887dd032c855e7"
+                "reference": "c7a1f48b4555df348eb912c8437d4bbe95721c84"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -960,6 +1086,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -968,7 +1097,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/command",
-                "reference": "17d4d46535521031b4c33eabc26e6ec0ac71af93"
+                "reference": "41540409797c84e08ddbcdf4762f4eb7262785b2"
             },
             "require": {
                 "hyperf/utils": "~2.0.0",
@@ -1017,7 +1146,10 @@
                 "command",
                 "php",
                 "swoole"
-            ]
+            ],
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "hyperf/config",
@@ -1025,7 +1157,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/config",
-                "reference": "3d7786049a1a725c545778f8ecb1c611a85d07ed"
+                "reference": "434bf2b1a6dc8011ce60c2b985153c40423167b3"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1097,6 +1229,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1105,7 +1240,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/constants",
-                "reference": "42b3bafa7e08482beb1b551719320437a6464ab1"
+                "reference": "b7e5b678ae8b3a003c5c45441b119492fc893398"
             },
             "require": {
                 "hyperf/di": "~2.0.0",
@@ -1163,6 +1298,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1171,7 +1309,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/contract",
-                "reference": "52f2c5a74b0021aa18c3981385588352043735a9"
+                "reference": "49fb25149750ca27b2bc46e9cb8710e955edf6b9"
             },
             "require": {
                 "php": ">=7.2"
@@ -1220,6 +1358,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1228,7 +1369,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/database",
-                "reference": "e5a9253105c419d5225475fd114175e98c20ea4f"
+                "reference": "522017086f259670f071853a24a68a7e8ea031cd"
             },
             "require": {
                 "hyperf/paginator": "~2.0.0",
@@ -1287,6 +1428,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1295,7 +1439,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/db-connection",
-                "reference": "d1d6727600a18235a5381ac9a59e09bfe9498d25"
+                "reference": "f70f04a4a88d7fcca573d87da6bb73e84ba58bf3"
             },
             "require": {
                 "hyperf/database": "~2.0.0",
@@ -1355,6 +1499,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1363,7 +1510,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/di",
-                "reference": "6f213c3bcfae8938e36d49d31b157d362ce45513"
+                "reference": "8f0b74f654cfd53f9a5bb1d275548e8950336ba3"
             },
             "require": {
                 "doctrine/annotations": "^1.6",
@@ -1433,6 +1580,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1441,7 +1591,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/dispatcher",
-                "reference": "c29d33b1dd3e4af395c0119cfc0d1a34750992f3"
+                "reference": "ef322d6fa71f600ac86190cc3ea67be55e9768c5"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1501,6 +1651,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1509,7 +1662,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/elasticsearch",
-                "reference": "678330334882201c85127136e90ab97128750f50"
+                "reference": "8fe8e1e765dc747f0980329f402569421fe612c5"
             },
             "require": {
                 "elasticsearch/elasticsearch": "^7.0",
@@ -1552,7 +1705,10 @@
                 "elasticsearch",
                 "php",
                 "swoole"
-            ]
+            ],
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "hyperf/event",
@@ -1560,7 +1716,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/event",
-                "reference": "a79e469b5e5192e472dba6b1eb1988560fe7d5a0"
+                "reference": "26fb6f4d6c71c5c2df5daa53e01b74b52e56e9e6"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1620,6 +1776,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1628,7 +1787,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/exception-handler",
-                "reference": "1753cc63d132f75aaa0ce8b30d097c8e220d5e50"
+                "reference": "68d9d8ef6c4eeeff9ac9347f07d1019014ae6007"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1679,7 +1838,10 @@
                 "exception-handler",
                 "php",
                 "swoole"
-            ]
+            ],
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "hyperf/framework",
@@ -1687,7 +1849,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/framework",
-                "reference": "70a0fd40ba9f1bd98e5680c6bc49b28968522f6c"
+                "reference": "2c582b68c386e34d369b0cacee9c865f468577c3"
             },
             "require": {
                 "ext-swoole": ">=4.4",
@@ -1757,6 +1919,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1765,7 +1930,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/guzzle",
-                "reference": "325a1ee947df0c53157357cca08c702a59cd5621"
+                "reference": "2215b38120f4d85f735aa4a62471f92ca97ff4f3"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3",
@@ -1813,7 +1978,10 @@
                 "handler",
                 "php",
                 "swoole"
-            ]
+            ],
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "hyperf/http-message",
@@ -1821,7 +1989,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/http-message",
-                "reference": "c069bdf6db27edcfc7efad1515421bb064cc298c"
+                "reference": "3395364bad065ca291048870d5f746747e1d033c"
             },
             "require": {
                 "hyperf/utils": "~2.0.0",
@@ -1870,7 +2038,10 @@
                 "hyperf",
                 "php",
                 "swoole"
-            ]
+            ],
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "hyperf/http-server",
@@ -1878,7 +2049,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/http-server",
-                "reference": "a0ff769a7ded1b79382247c3e0dbc16e81675371"
+                "reference": "1fba5fb6259cdd02e091eeb1fc763c671e08a4a7"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1946,6 +2117,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -1954,7 +2128,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/logger",
-                "reference": "019821ad5919f43b457fe452e56095c89fef1e62"
+                "reference": "d08c8aabc26e90e6fadcc587af7ce670d7e02ce7"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2012,6 +2186,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2020,7 +2197,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/memory",
-                "reference": "e7b7e984d0f7791a44373d45e21509e5f31413a8"
+                "reference": "79e28997e0d9cce2873874b8aae9cee5cd58f278"
             },
             "require": {
                 "php": ">=7.2"
@@ -2072,6 +2249,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2080,7 +2260,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/model-cache",
-                "reference": "4177e191a0a684d848b7fd187697da69f64efdd1"
+                "reference": "0767f3a6f2743e7d54e44baab8f045af05fcde20"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2142,6 +2322,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2150,7 +2333,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/model-listener",
-                "reference": "d8d35d504e7b9c7077539c89a0eeb4e03fec1715"
+                "reference": "6c3be997fa0b8b04a4161022007bfc15ecb2974e"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2211,6 +2394,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2219,7 +2405,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/paginator",
-                "reference": "9eeeef5facbefdee7de99dba44a4ea2a88f57197"
+                "reference": "3823bfb6835f4f0875051c03899f19fe3e5a7550"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2282,6 +2468,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2290,7 +2479,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/pool",
-                "reference": "6a9cbdad6beb79054c81eae8f53e87efabbb69be"
+                "reference": "9aa42002b0ed82b9570655c24270fe91f8384e61"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2347,6 +2536,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2355,7 +2547,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/process",
-                "reference": "2b6c873f120e473f0fadba779d87515e147a672a"
+                "reference": "ed7aff8a78d25b6b12d8e12dbb0610d477a0b7fd"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2418,6 +2610,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2426,7 +2621,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/redis",
-                "reference": "c6888eed795d34ed92959e2324dc68abcc4ad2ff"
+                "reference": "b1191aa1b25588c2407d9ffa85fef33717ea24b1"
             },
             "require": {
                 "ext-redis": "*",
@@ -2489,6 +2684,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2497,7 +2695,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/server",
-                "reference": "8601c09a6e97b4c5738a4a78c9c5589973d686e1"
+                "reference": "20ee9c56eecca5dff9767b9782bd6055a5296d05"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2561,6 +2759,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -2569,7 +2770,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/utils",
-                "reference": "856f02d202122bed089d44d621e751287245bf5a"
+                "reference": "bcda33acc6ba03d645c99fbf178b44dfcc196e13"
             },
             "require": {
                 "doctrine/inflector": "^1.3",
@@ -2638,6 +2839,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -3751,6 +3955,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -4022,6 +4229,10 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -4473,16 +4684,16 @@
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.17.1",
+            "version": "v1.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "a57f8161502549a742a63c09f0a604997bf47027"
+                "reference": "749045c69efb97c70d25d7463abba812e91f3a44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/a57f8161502549a742a63c09f0a604997bf47027",
-                "reference": "a57f8161502549a742a63c09f0a604997bf47027",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/749045c69efb97c70d25d7463abba812e91f3a44",
+                "reference": "749045c69efb97c70d25d7463abba812e91f3a44",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4492,8 +4703,8 @@
                 ]
             },
             "require": {
-                "php": ">=5.3.3",
-                "symfony/polyfill-mbstring": "^1.3",
+                "php": ">=7.1",
+                "symfony/polyfill-intl-normalizer": "^1.10",
                 "symfony/polyfill-php72": "^1.10"
             },
             "suggest": {
@@ -4502,7 +4713,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-main": "1.23-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4510,12 +4721,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4525,6 +4736,10 @@
                 {
                     "name": "Laurent Bassin",
                     "email": "laurent@bassin.info"
+                },
+                {
+                    "name": "Trevor Rowbotham",
+                    "email": "trevor.rowbotham@pm.me"
                 },
                 {
                     "name": "Symfony Community",
@@ -4541,20 +4756,37 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.25.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-09-14T14:02:44+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.17.1",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "40309d1700e8f72447bb9e7b54af756eeea35620"
+                "reference": "219aa369ceff116e673852dce47c3a41794c14bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/40309d1700e8f72447bb9e7b54af756eeea35620",
-                "reference": "40309d1700e8f72447bb9e7b54af756eeea35620",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/219aa369ceff116e673852dce47c3a41794c14bd",
+                "reference": "219aa369ceff116e673852dce47c3a41794c14bd",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4564,7 +4796,7 @@
                 ]
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=7.1"
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -4572,7 +4804,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-main": "1.26-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4580,12 +4812,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
-                },
                 "files": [
                     "bootstrap.php"
                 ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                },
                 "classmap": [
                     "Resources/stubs"
                 ]
@@ -4614,20 +4846,37 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-14T14:40:37+00:00"
+            "support": {
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.26.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.17.1",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7110338d81ce1cbc3e273136e4574663627037a7"
+                "reference": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7110338d81ce1cbc3e273136e4574663627037a7",
-                "reference": "7110338d81ce1cbc3e273136e4574663627037a7",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
+                "reference": "9344f9cb97f3b19424af1a21a3b0e75b0a7d8d7e",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4637,7 +4886,10 @@
                 ]
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=7.1"
+            },
+            "provide": {
+                "ext-mbstring": "*"
             },
             "suggest": {
                 "ext-mbstring": "For best performance"
@@ -4645,7 +4897,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-main": "1.26-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -4653,12 +4905,12 @@
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4683,20 +4935,37 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "support": {
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.26.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/polyfill-php72",
-            "version": "v1.17.0",
+            "version": "v1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "f048e612a3905f34931127360bdd2def19a5e582"
+                "reference": "bf44a9fd41feaac72b074de600314a93e2ae78e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/f048e612a3905f34931127360bdd2def19a5e582",
-                "reference": "f048e612a3905f34931127360bdd2def19a5e582",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/bf44a9fd41feaac72b074de600314a93e2ae78e2",
+                "reference": "bf44a9fd41feaac72b074de600314a93e2ae78e2",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -4706,21 +4975,25 @@
                 ]
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=7.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-main": "1.26-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php72\\": ""
-                },
                 "files": [
                     "bootstrap.php"
-                ]
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php72\\": ""
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -4744,7 +5017,24 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-05-12T16:47:27+00:00"
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php72/tree/v1.26.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-05-24T11:49:31+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -6078,7 +6368,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/devtool",
-                "reference": "da80832953c29f3b59c2a316162129f6ad868e33"
+                "reference": "e0b82a6877852f10cf8de57f8190a48b93c7f005"
             },
             "require": {
                 "hyperf/command": "~2.0.0",
@@ -6136,6 +6426,9 @@
                 "issues": "https://github.com/hyperf/hyperf/issues",
                 "pull-request": "https://github.com/hyperf/hyperf/pulls",
                 "source": "https://github.com/hyperf/hyperf"
+            },
+            "transport-options": {
+                "relative": false
             }
         },
         {
@@ -6144,7 +6437,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/testing",
-                "reference": "193946eac53b4b1cb2a1b2198f6bdaec53fa356a"
+                "reference": "0fbcf80ffd5f18a76f50f42644107a6af0acdd6c"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -6195,7 +6488,10 @@
                 "php",
                 "swoole",
                 "testing"
-            ]
+            ],
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "mockery/mockery",
@@ -6321,57 +6617,6 @@
                 "object graph"
             ],
             "time": "2020-06-28T07:02:41+00:00"
-        },
-        {
-            "name": "paragonie/random_compat",
-            "version": "v9.99.99",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
-                "reference": "84b4dfb120c6f9b4ff7b3685f9b8f1aa365a0c95",
-                "shasum": "",
-                "mirrors": [
-                    {
-                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
-                        "preferred": true
-                    }
-                ]
-            },
-            "require": {
-                "php": "^7"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.*|5.*",
-                "vimeo/psalm": "^1"
-            },
-            "suggest": {
-                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Paragon Initiative Enterprises",
-                    "email": "security@paragonie.com",
-                    "homepage": "https://paragonie.com"
-                }
-            ],
-            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
-            "keywords": [
-                "csprng",
-                "polyfill",
-                "pseudorandom",
-                "random"
-            ],
-            "time": "2018-07-02T15:55:56+00:00"
         },
         {
             "name": "pdepend/pdepend",
@@ -8301,16 +8546,16 @@
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.17.1",
+            "version": "v1.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "471b096aede7025bace8eb356b9ac801aaba7e2d"
+                "reference": "5f03a781d984aae42cebd18e7912fa80f02ee644"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/471b096aede7025bace8eb356b9ac801aaba7e2d",
-                "reference": "471b096aede7025bace8eb356b9ac801aaba7e2d",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/5f03a781d984aae42cebd18e7912fa80f02ee644",
+                "reference": "5f03a781d984aae42cebd18e7912fa80f02ee644",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -8320,29 +8565,17 @@
                 ]
             },
             "require": {
-                "paragonie/random_compat": "~1.0|~2.0|~9.99",
-                "php": ">=5.3.3"
+                "php": ">=7.1"
             },
-            "type": "library",
+            "type": "metapackage",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-main": "1.20-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
                     "url": "https://github.com/symfony/polyfill"
                 }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php70\\": ""
-                },
-                "files": [
-                    "bootstrap.php"
-                ],
-                "classmap": [
-                    "Resources/stubs"
-                ]
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -8366,7 +8599,24 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "support": {
+                "source": "https://github.com/symfony/polyfill-php70/tree/v1.20.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-23T14:02:19+00:00"
         },
         {
             "name": "symfony/process",
@@ -8536,5 +8786,6 @@
         "php": ">=7.2",
         "ext-swoole": ">=4.5"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }

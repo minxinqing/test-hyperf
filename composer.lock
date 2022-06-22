@@ -537,16 +537,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.5.7",
+            "version": "6.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "724562fa861e21a4071c652c8a159934e4f05592"
+                "reference": "a52f0440530b54fa079ce76e8c5d196a42cad981"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/724562fa861e21a4071c652c8a159934e4f05592",
-                "reference": "724562fa861e21a4071c652c8a159934e4f05592",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/a52f0440530b54fa079ce76e8c5d196a42cad981",
+                "reference": "a52f0440530b54fa079ce76e8c5d196a42cad981",
                 "shasum": "",
                 "mirrors": [
                     {
@@ -558,9 +558,9 @@
             "require": {
                 "ext-json": "*",
                 "guzzlehttp/promises": "^1.0",
-                "guzzlehttp/psr7": "^1.6.1",
+                "guzzlehttp/psr7": "^1.9",
                 "php": ">=5.5",
-                "symfony/polyfill-intl-idn": "^1.17.0"
+                "symfony/polyfill-intl-idn": "^1.17"
             },
             "require-dev": {
                 "ext-curl": "*",
@@ -638,7 +638,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/6.5.7"
+                "source": "https://github.com/guzzle/guzzle/tree/6.5.8"
             },
             "funding": [
                 {
@@ -654,7 +654,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-06-09T21:36:50+00:00"
+            "time": "2022-06-20T22:16:07+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -748,7 +748,7 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.5",
+            "version": "1.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
@@ -844,7 +844,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.8.5"
+                "source": "https://github.com/guzzle/psr7/tree/1.x"
             },
             "funding": [
                 {
@@ -868,7 +868,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/amqp",
-                "reference": "263147a7b20972904394f208cdebe50a7b5deed9"
+                "reference": "dcc9ae9f3ce55a821fb2c679b4c27659f2c490f5"
             },
             "require": {
                 "doctrine/instantiator": "^1.2.0",
@@ -948,7 +948,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/async-queue",
-                "reference": "66a62ae0be68f0363ed4a1bb27fd67547f3c2907"
+                "reference": "20fe879a31412e86ee2b723db4c34e6ea399a4af"
             },
             "require": {
                 "hyperf/command": "~2.0.0",
@@ -1023,7 +1023,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/cache",
-                "reference": "c7a1f48b4555df348eb912c8437d4bbe95721c84"
+                "reference": "b690ab4e439682f72f38b7ef654bb9644b0e8132"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1097,7 +1097,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/command",
-                "reference": "41540409797c84e08ddbcdf4762f4eb7262785b2"
+                "reference": "5757bac251034e37b155835863cf7666c515a13a"
             },
             "require": {
                 "hyperf/utils": "~2.0.0",
@@ -1157,7 +1157,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/config",
-                "reference": "434bf2b1a6dc8011ce60c2b985153c40423167b3"
+                "reference": "7270172c818d517423f1b3ef55df36136bdfee69"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1240,7 +1240,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/constants",
-                "reference": "b7e5b678ae8b3a003c5c45441b119492fc893398"
+                "reference": "d62381ce614886d4e31c0d780f086ca2e572b897"
             },
             "require": {
                 "hyperf/di": "~2.0.0",
@@ -1309,7 +1309,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/contract",
-                "reference": "49fb25149750ca27b2bc46e9cb8710e955edf6b9"
+                "reference": "e4611badbd78851ae0ae29f94f0a889f67c8ed08"
             },
             "require": {
                 "php": ">=7.2"
@@ -1369,7 +1369,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/database",
-                "reference": "522017086f259670f071853a24a68a7e8ea031cd"
+                "reference": "567fa61ac6601996ab49a13a80300f1c8e2b3f79"
             },
             "require": {
                 "hyperf/paginator": "~2.0.0",
@@ -1439,7 +1439,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/db-connection",
-                "reference": "f70f04a4a88d7fcca573d87da6bb73e84ba58bf3"
+                "reference": "42d9385a899c2738c080d3afcb590190062384ef"
             },
             "require": {
                 "hyperf/database": "~2.0.0",
@@ -1510,7 +1510,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/di",
-                "reference": "8f0b74f654cfd53f9a5bb1d275548e8950336ba3"
+                "reference": "bc0a48c28d4807766f219008ea587d896d5473f8"
             },
             "require": {
                 "doctrine/annotations": "^1.6",
@@ -1591,7 +1591,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/dispatcher",
-                "reference": "ef322d6fa71f600ac86190cc3ea67be55e9768c5"
+                "reference": "5693a0d1f5f6420194650f1c826cea12068d61b1"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1662,7 +1662,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/elasticsearch",
-                "reference": "8fe8e1e765dc747f0980329f402569421fe612c5"
+                "reference": "512f330070d459baee04fc8a204b55f3f060ea81"
             },
             "require": {
                 "elasticsearch/elasticsearch": "^7.0",
@@ -1716,7 +1716,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/event",
-                "reference": "26fb6f4d6c71c5c2df5daa53e01b74b52e56e9e6"
+                "reference": "291207fcc568fa7510cb8a5e5663619811285e7e"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1787,7 +1787,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/exception-handler",
-                "reference": "68d9d8ef6c4eeeff9ac9347f07d1019014ae6007"
+                "reference": "4587c884b88bf2d103ed5c555748421eddc5b61e"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -1849,7 +1849,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/framework",
-                "reference": "2c582b68c386e34d369b0cacee9c865f468577c3"
+                "reference": "71c266ff25926f7aa1f0a2394dea1f5204cc7e45"
             },
             "require": {
                 "ext-swoole": ">=4.4",
@@ -1930,7 +1930,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/guzzle",
-                "reference": "2215b38120f4d85f735aa4a62471f92ca97ff4f3"
+                "reference": "d09ec1342efdd51d80d7e1ac762d1f5daaf46e17"
             },
             "require": {
                 "guzzlehttp/guzzle": "^6.3",
@@ -1989,7 +1989,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/http-message",
-                "reference": "3395364bad065ca291048870d5f746747e1d033c"
+                "reference": "358cac0af73e4588b45dd4ad37d0f9cedaa54d98"
             },
             "require": {
                 "hyperf/utils": "~2.0.0",
@@ -2049,7 +2049,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/http-server",
-                "reference": "1fba5fb6259cdd02e091eeb1fc763c671e08a4a7"
+                "reference": "acd321181a810babcaf18cd049e752069a959178"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2128,7 +2128,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/logger",
-                "reference": "d08c8aabc26e90e6fadcc587af7ce670d7e02ce7"
+                "reference": "d7d8a11d9d1a6e2b7b06d7a126134fe49d13760c"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2197,7 +2197,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/memory",
-                "reference": "79e28997e0d9cce2873874b8aae9cee5cd58f278"
+                "reference": "79142687276c636b2b7c046c584a2ca0da0694d0"
             },
             "require": {
                 "php": ">=7.2"
@@ -2260,7 +2260,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/model-cache",
-                "reference": "0767f3a6f2743e7d54e44baab8f045af05fcde20"
+                "reference": "8dd0dbf4ffec5b8d66e6187e2a6824981987bf69"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2333,7 +2333,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/model-listener",
-                "reference": "6c3be997fa0b8b04a4161022007bfc15ecb2974e"
+                "reference": "2d0a619dce4e8877f7aec3693ec23f5cdd7378ef"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2405,7 +2405,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/paginator",
-                "reference": "3823bfb6835f4f0875051c03899f19fe3e5a7550"
+                "reference": "05992fef618ed288bf2dddf08657fad893412e25"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2479,7 +2479,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/pool",
-                "reference": "9aa42002b0ed82b9570655c24270fe91f8384e61"
+                "reference": "8ae6ebf8f8dd970bc2719ddff5b9491c857e8e58"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2547,7 +2547,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/process",
-                "reference": "ed7aff8a78d25b6b12d8e12dbb0610d477a0b7fd"
+                "reference": "b108745f8bfa68bf632757a0795900469c60aba7"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2621,7 +2621,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/redis",
-                "reference": "b1191aa1b25588c2407d9ffa85fef33717ea24b1"
+                "reference": "4e5f6086b52cb4d51783b039a35873952d742bb0"
             },
             "require": {
                 "ext-redis": "*",
@@ -2695,7 +2695,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/server",
-                "reference": "20ee9c56eecca5dff9767b9782bd6055a5296d05"
+                "reference": "e43556f4b87e3d065f56f41a822a5b3fddc997a2"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
@@ -2770,7 +2770,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/utils",
-                "reference": "bcda33acc6ba03d645c99fbf178b44dfcc196e13"
+                "reference": "91f2bcb8ca2a19f50b45378e2a6616586cee095b"
             },
             "require": {
                 "doctrine/inflector": "^1.3",
@@ -6368,7 +6368,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/devtool",
-                "reference": "e0b82a6877852f10cf8de57f8190a48b93c7f005"
+                "reference": "6da672911ee09441a4c932577fc86ab51da4b416"
             },
             "require": {
                 "hyperf/command": "~2.0.0",
@@ -6437,7 +6437,7 @@
             "dist": {
                 "type": "path",
                 "url": "/Users/minxinqing/workspace/code/php/hyperf/src/testing",
-                "reference": "0fbcf80ffd5f18a76f50f42644107a6af0acdd6c"
+                "reference": "3e6fb2bf1b8ee6a7f465746d2a40d47fb0e296cd"
             },
             "require": {
                 "hyperf/contract": "~2.0.0",
